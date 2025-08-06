@@ -397,8 +397,7 @@ export default function Portfolio() {
                     <SkillCard skill="Java & Spring Boot" level="Experienced" />
                     <SkillCard skill="MySQL & PostgreSQL" level="Experienced" />
                     <SkillCard skill="PHP" level="Experienced" />
-                    <SkillCard skill="Python" level="Intermediate" />
-                    <SkillCard skill="Git" level="Intermediate" />
+                    <SkillCard skill="Python" level="Beginner" />
                   </div>
                 </CardContent>
               </Card>
@@ -414,11 +413,10 @@ export default function Portfolio() {
                   <h3 className="text-2xl font-semibold mb-6 text-red-400">Cybersecurity & GRC</h3>
                   <div className="space-y-4">
                     <SkillCard skill="ISO 27001 Lead Auditor" level="Certified" />
-                    <SkillCard skill="Internal Auditing" level="Experienced" />
-                    <SkillCard skill="Risk Assessment & GRC" level="Experienced" />
-                    <SkillCard skill="Kali Linux & Metasploit" level="Intermediate" />
+                    <SkillCard skill="Internal Auditing" level="Intermediate" />
+                    <SkillCard skill="Risk Assessment & GRC" level="Intermediate" />
+                    <SkillCard skill="Linux" level="Intermediate" />
                     <SkillCard skill="Burp Suite & Nmap" level="Intermediate" />
-                    <SkillCard skill="Penetration Testing" level="Intermediate" />
                   </div>
                 </CardContent>
               </Card>
