@@ -164,6 +164,7 @@ export default function Portfolio() {
             <Button
               variant="outline"
               size="lg"
+              className="bg-transparent border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-black transition-all duration-300"
               onClick={() => window.open('/CV-Wael_REZGUI.pdf')}
             >
               <Download className="mr-2 h-4 w-4" />
@@ -172,6 +173,7 @@ export default function Portfolio() {
             <Button
               variant="outline"
               size="lg"
+              className="bg-transparent border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-black transition-all duration-300"
               onClick={() => window.open('/CV-Wael_REZGUI_FR.pdf')}
             >
               <Download className="mr-2 h-4 w-4" />
