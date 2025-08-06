@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Check } from "lucide-react"
+import { Check } from 'lucide-react'
 
 interface SkillCardProps {
   skill: string
@@ -11,6 +11,8 @@ interface SkillCardProps {
 export default function SkillCard({ skill, level }: SkillCardProps) {
   const getLevelColor = (level: string) => {
     switch (level.toLowerCase()) {
+      case "certified":
+        return "text-blue-400"
       case "experienced":
         return "text-green-400"
       case "intermediate":

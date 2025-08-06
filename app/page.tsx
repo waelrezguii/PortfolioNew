@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react"
 import { motion, useScroll, useTransform } from "framer-motion"
-import { ChevronDown, Download, Mail, Linkedin, Github, Menu, X } from "lucide-react"
+import { ChevronDown, Download, Mail, Linkedin, Github, Menu, X } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import ParticleBackground from "@/components/particle-background"
@@ -270,12 +270,10 @@ export default function Portfolio() {
             <Card className="bg-white/5 backdrop-blur-md border-white/10">
               <CardContent className="p-8">
                 <p className="text-lg text-white/90 leading-relaxed">
-                  Currently pursuing a Master's in Information Systems Security at ISG Tunis. With a strong foundation
-                  in fullstack development and a growing expertise in cybersecurity, I'm passionate about security
-                  audits, GRC (Governance, Risk, and Compliance), network security, and vulnerability management. I
-                  recently completed penetration testing on the "Netspace" lab machine and am actively building skills
-                  in secure development and SIEM tools. Eager to contribute to real-world security projects and continue
-                  learning in a professional environment.
+                  Cybersecurity master's student with hands-on experience in internal auditing, ISO 27001 compliance, secure
+                  web development, and penetration testing. Proven ability to manage technical audits, develop GRC
+                  solutions, and strengthen application security. Eager to apply skills in security governance and technical
+                  controls in a professional role.
                 </p>
               </CardContent>
             </Card>
@@ -314,17 +312,15 @@ export default function Portfolio() {
                         <span className="text-sm text-white/60">June 2025 – July 2025</span>
                       </div>
                       <h4 className="text-lg font-medium text-white mb-3">
-                        Intern – Internal Audit Platform Development
+                        Intern – Security Audit Platform Developer
                       </h4>
                       <ul className="space-y-2 text-white/80">
-                        <li>• Participated in the development of a security audit management platform.</li>
+                        <li>• Developed a complete internal audit web platform (Angular + Spring Boot) that reduced manual auditing tasks by 40%.</li>
                         <li>
-                          • Designed UML models: use case, sequence, and class diagrams for managing audits, documents,
-                          and tasks.
+                          • Designed UML diagrams (use case, sequence, class) to support the audit lifecycle: planning, execution, reporting.
                         </li>
                         <li>
-                          • Integrated security features: secure authentication (JWT), action logging (Audit Log), role
-                          and permission management.
+                          • Integrated secure authentication (JWT), audit logging, and RBAC aligned with ISO 27001 controls.
                         </li>
                       </ul>
                     </div>
@@ -335,13 +331,12 @@ export default function Portfolio() {
                         <h3 className="text-xl font-semibold text-purple-400">HRS Tunisia — Tunis, Tunisia</h3>
                         <span className="text-sm text-white/60">February 2024 – April 2024</span>
                       </div>
-                      <h4 className="text-lg font-medium text-white mb-3">Web Developer (Final-Year Internship)</h4>
+                      <h4 className="text-lg font-medium text-white mb-3">Web Developer – Final Year Project</h4>
                       <ul className="space-y-2 text-white/80">
                         <li>
-                          • Developed the X-CHANGE application: real-time exchange rate consultation from Tunisian
-                          banks.
+                          • Built X-CHANGE to aggregate and display real-time exchange rates from 10+ banks in Tunisia.
                         </li>
-                        <li>• Implemented a dynamic online currency converter.</li>
+                        <li>• Implemented a dynamic calculator with REST API integration.</li>
                         <li>
                           • Built a negotiation system allowing users to post sale requests and receive bank offers.
                         </li>
@@ -384,6 +379,7 @@ export default function Portfolio() {
                     <SkillCard skill="CSS" level="Experienced" />
                     <SkillCard skill="JavaScript" level="Intermediate" />
                     <SkillCard skill="TypeScript" level="Experienced" />
+                    <SkillCard skill="Angular" level="Experienced" />
                   </div>
                 </CardContent>
               </Card>
@@ -398,9 +394,10 @@ export default function Portfolio() {
                 <CardContent className="p-6">
                   <h3 className="text-2xl font-semibold mb-6 text-purple-400">Backend Development</h3>
                   <div className="space-y-4">
-                    <SkillCard skill="MySQL" level="Experienced" />
-                    <SkillCard skill="Spring Boot" level="Intermediate" />
+                    <SkillCard skill="Java & Spring Boot" level="Experienced" />
+                    <SkillCard skill="MySQL & PostgreSQL" level="Experienced" />
                     <SkillCard skill="PHP" level="Experienced" />
+                    <SkillCard skill="Python" level="Intermediate" />
                     <SkillCard skill="Git" level="Intermediate" />
                   </div>
                 </CardContent>
@@ -414,11 +411,14 @@ export default function Portfolio() {
             >
               <Card className="bg-white/5 backdrop-blur-md border-white/10 h-full">
                 <CardContent className="p-6">
-                  <h3 className="text-2xl font-semibold mb-6 text-red-400">Cybersecurity Skills</h3>
+                  <h3 className="text-2xl font-semibold mb-6 text-red-400">Cybersecurity & GRC</h3>
                   <div className="space-y-4">
-                    <SkillCard skill="Metasploit & Kali Linux" level="Intermediate" />
-                    <SkillCard skill="Wireshark & Nmap" level="Beginner" />
-                    <SkillCard skill="Linux Hardening" level="Learning" />
+                    <SkillCard skill="ISO 27001 Lead Auditor" level="Certified" />
+                    <SkillCard skill="Internal Auditing" level="Experienced" />
+                    <SkillCard skill="Risk Assessment & GRC" level="Experienced" />
+                    <SkillCard skill="Kali Linux & Metasploit" level="Intermediate" />
+                    <SkillCard skill="Burp Suite & Nmap" level="Intermediate" />
+                    <SkillCard skill="Penetration Testing" level="Intermediate" />
                   </div>
                 </CardContent>
               </Card>

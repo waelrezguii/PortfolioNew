@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Github, FileText } from "lucide-react"
+import { Github, FileText } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 
@@ -37,7 +37,7 @@ export default function ProjectCard({
           <img
             src={image || "/placeholder.svg"}
             alt={title}
-            className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
+            className="w-full h-48 object-contain bg-white/5 group-hover:scale-110 transition-transform duration-300"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
         </div>
