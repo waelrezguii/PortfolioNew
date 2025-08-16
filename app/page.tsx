@@ -446,7 +446,6 @@ export default function Portfolio() {
               description="Comprehensive penetration testing report on the Netspace lab machine, demonstrating vulnerability assessment and exploitation techniques."
               image="/10961506.png"
               technologies={["Kali Linux", "Metasploit", "Nmap", "Wireshark"]}
-              githubUrl="#"
               reportUrl="/Netspace.pdf"
               delay={0}
             />
@@ -455,7 +454,6 @@ export default function Portfolio() {
               description="Comprehensive internal security audit of TechConsult S.A. evaluating ISO/IEC 27001:2022 compliance and security controls effectiveness."
               image="/15378705-audit-d-entreprise-de-documents-avec-graphiques-comptabilite-calculs-et-analyse-de-rapports-financiers-dans-une-illustration-de-modeles-dessines-a-la-main-de-dessin-anime-plat-vectoriel.jpg"
               technologies={["ISO 27001", "Risk Assessment", "Compliance", "Security Controls"]}
-              githubUrl="#"
               reportUrl="/Internal_Security_Audit_Report.pdf"
               delay={0.2}
             />
@@ -464,7 +462,6 @@ export default function Portfolio() {
               description="Detailed third-party security risk assessment of Zoom Video Communications Inc., focusing on security posture and compliance evaluation."
               image="/risk-management-icon-in-flat-style-document-illustration-on-white-isolated-background-assessment-data-sign-business-concept-vector.jpg"
               technologies={["Risk Management", "Vendor Assessment", "SOC 2", "GDPR"]}
-              githubUrl="#"
               reportUrl="/Third_Party_Risk_Assessment_Report.pdf"
               delay={0.4}
             />
