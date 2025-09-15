@@ -165,7 +165,7 @@ export default function Portfolio() {
               variant="outline"
               size="lg"
               className="bg-transparent border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-black transition-all duration-300"
-              onClick={() => window.open('/CV-Wael_REZGUI.pdf')}
+              onClick={() => window.open('/CV-REZGUI_Wael.pdf')}
             >
               <Download className="mr-2 h-4 w-4" />
               Download CV (English)
@@ -174,7 +174,7 @@ export default function Portfolio() {
               variant="outline"
               size="lg"
               className="bg-transparent border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-black transition-all duration-300"
-              onClick={() => window.open('/CV-Wael_REZGUI_FR.pdf')}
+              onClick={() => window.open('/CV-REZGUI_Wael_FR.pdf')}
             >
               <Download className="mr-2 h-4 w-4" />
               Download CV (French)
