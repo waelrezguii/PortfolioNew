@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Recurse -File -Include \"*.json\", \"*.js\", \"*.jsx\", \"*.ts\", \"*.tsx\", \"*.md\")",
+      "Bash(Select-Object -ExpandProperty FullName)",
+      "Bash(Sort-Object)",
+      "Bash(gh repo *)",
+      "WebFetch(domain:github.com)"
+    ]
+  }
+}

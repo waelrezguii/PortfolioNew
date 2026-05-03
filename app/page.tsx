@@ -441,6 +441,102 @@ export default function Portfolio() {
           </motion.div>
 
           <div className="grid md:grid-cols-3 gap-8">
+            {/* GRC Platform – Featured Full-Width Card */}
+            <motion.div
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}
+              className="col-span-1 md:col-span-3"
+            >
+              <Card className="bg-white/5 backdrop-blur-md border-white/10 overflow-hidden hover:bg-white/10 transition-all duration-300">
+                <CardContent className="p-8">
+                  <div className="grid md:grid-cols-2 gap-8">
+                    <div>
+                      <div className="flex items-center gap-3 mb-4">
+                        <span className="px-3 py-1 text-xs bg-red-400/20 text-red-400 rounded-full border border-red-400/30 font-mono">
+                          Featured DevSecOps Project
+                        </span>
+                      </div>
+                      <h3 className="text-3xl font-bold text-white mb-3">GRC Cyber Platform</h3>
+                      <p className="text-white/70 mb-5 leading-relaxed text-sm">
+                        Enterprise-grade Governance, Risk &amp; Compliance platform with a full 7-phase DevSecOps pipeline.
+                        Manages assets, risks, vulnerabilities, controls, audits, and compliance against ISO 27001, GDPR, and SOC 2 frameworks.
+                        Integrates Nessus, Qualys, and OpenVAS scanners with live threat intel from CERT-FR, CERT-ENISA, and MITRE.
+                      </p>
+                      <div className="grid grid-cols-2 gap-2 mb-6">
+                        {[
+                          "Risk heatmap (0–100 scoring)",
+                          "6 PDF report types",
+                          "Multi-framework compliance",
+                          "RBAC with 6 roles",
+                          "MFA / OTP authentication",
+                          "Threat Watch feeds",
+                          "Scanner integrations",
+                          "i18n: EN, FR, AR + RTL",
+                        ].map((feat) => (
+                          <div key={feat} className="flex items-center gap-2 text-white/70 text-xs">
+                            <div className="w-1.5 h-1.5 rounded-full bg-red-400 flex-shrink-0" />
+                            {feat}
+                          </div>
+                        ))}
+                      </div>
+                      <div className="flex gap-3 flex-wrap">
+                        <Button
+                          variant="outline"
+                          size="sm"
+                          className="bg-transparent border-white/20 text-white hover:bg-white/10"
+                          onClick={() => window.open("https://github.com/waelrezguii/grc-platform-front", "_blank")}
+                        >
+                          <Github className="mr-2 h-4 w-4" />
+                          Frontend Repo
+                        </Button>
+                        <Button
+                          variant="outline"
+                          size="sm"
+                          className="bg-transparent border-white/20 text-white hover:bg-white/10"
+                          onClick={() => window.open("https://github.com/waelrezguii/grc-platform-backend", "_blank")}
+                        >
+                          <Github className="mr-2 h-4 w-4" />
+                          Backend Repo
+                        </Button>
+                      </div>
+                    </div>
+                    <div className="space-y-6">
+                      <div>
+                        <h4 className="text-white/50 text-xs font-semibold uppercase tracking-wider mb-3">Tech Stack</h4>
+                        <div className="flex flex-wrap gap-2">
+                          {["Angular 18", "Spring Boot 4", "PostgreSQL 17", "Docker", "GitHub Actions", "NgRx", "JWT", "Chart.js", "Tailwind CSS", "Java 17"].map((tech) => (
+                            <span key={tech} className="px-2 py-1 text-xs bg-gradient-to-r from-cyan-400/20 to-purple-400/20 text-cyan-400 rounded-full border border-cyan-400/30">
+                              {tech}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+                      <div>
+                        <h4 className="text-white/50 text-xs font-semibold uppercase tracking-wider mb-3">7-Phase DevSecOps Pipeline</h4>
+                        <div className="space-y-2">
+                          {[
+                            { phase: "Secrets Detection", tool: "GitGuardian" },
+                            { phase: "SCA / Dependencies", tool: "OWASP Dependency-Check" },
+                            { phase: "SAST", tool: "SpotBugs + Find Security Bugs" },
+                            { phase: "Container Scanning", tool: "Trivy" },
+                            { phase: "DAST", tool: "OWASP ZAP" },
+                            { phase: "Lint & Build", tool: "GitHub Actions" },
+                            { phase: "Audit Logging", tool: "ECS Structured Logs" },
+                          ].map(({ phase, tool }) => (
+                            <div key={phase} className="flex items-center justify-between text-xs">
+                              <span className="text-white/60">{phase}</span>
+                              <span className="text-orange-400 font-mono">{tool}</span>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+            </motion.div>
+
             <ProjectCard
               title="Netspace Pentesting Lab"
               description="Comprehensive penetration testing report on the Netspace lab machine, demonstrating vulnerability assessment and exploitation techniques."
