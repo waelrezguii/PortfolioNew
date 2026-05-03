@@ -39,7 +39,7 @@ const translations = {
         "B.Sc. in Business Information Systems",
         "M.Sc. in Information Systems Security (In Progress)",
       ],
-      bio: "Cybersecurity master's student with hands-on experience in internal auditing, ISO 27001 compliance, secure web development, and penetration testing. Proven ability to manage technical audits, develop GRC solutions, and strengthen application security. Eager to apply skills in security governance and technical controls in a professional role.",
+      bio: "Cybersecurity master's student specializing in DevSecOps and GRC, with hands-on experience building end-to-end CI/CD security pipelines integrating SAST, DAST, SCA, and container scanning. Proficient in ISO 27001 auditing, risk assessment, and engineering enterprise-grade GRC platforms from the ground up. Bridges offensive security skills (penetration testing, Burp Suite, Nmap) with secure-by-design development (Angular, Spring Boot, JWT/OAuth2) to enforce security across the full software lifecycle — from commit to production.",
     },
     experience: {
       sectionLabel: "$ ls -la /experience",
@@ -221,7 +221,7 @@ const translations = {
         "Licence en Systèmes d'Information de Gestion",
         "Master en Sécurité des Systèmes d'Information (En cours)",
       ],
-      bio: "Étudiant en master de cybersécurité avec une expérience pratique en audit interne, conformité ISO 27001, développement web sécurisé et tests d'intrusion. Capacité avérée à gérer des audits techniques, développer des solutions GRC et renforcer la sécurité applicative. Désireux d'appliquer mes compétences en gouvernance de la sécurité et contrôles techniques dans un rôle professionnel.",
+      bio: "Étudiant en master de cybersécurité spécialisé en DevSecOps et GRC, avec une expérience pratique dans la construction de pipelines CI/CD sécurisés intégrant SAST, DAST, SCA et scan de conteneurs. Maîtrise de l'audit ISO 27001, de l'évaluation des risques et du développement de plateformes GRC d'entreprise. Allie les compétences offensives (tests d'intrusion, Burp Suite, Nmap) au développement sécurisé (Angular, Spring Boot, JWT/OAuth2) pour garantir la sécurité sur l'ensemble du cycle de vie logiciel — du commit à la production.",
     },
     experience: {
       sectionLabel: "$ ls -la /expérience",
