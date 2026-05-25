@@ -160,6 +160,14 @@ const translations = {
       title: "Secure Dev Projects",
       projects: [
         {
+          title: "AgentGuard",
+          description: "Open-source CLI that audits AI agent tool permissions and MCP server configs before deployment. Detects over-permissioned tools, plaintext credentials, and production DB exposure. Includes a GitHub Action that auto-comments on PRs when blast radius increases.",
+          image: "/agentguard-banner.svg",
+          technologies: ["Python", "MCP", "LangChain", "GitHub Actions", "Static Analysis", "CLI"],
+          githubUrl: "https://github.com/waelrezguii/agentguard",
+          reportUrl: undefined as string | undefined,
+        },
+        {
           title: "Internal Audit Platform",
           description: "Conception and implementation of a security audit management platform with UML modeling, secure authentication (JWT), and comprehensive role management.",
           image: "/images.png",
@@ -341,6 +349,14 @@ const translations = {
       sectionLabel: "// DÉVELOPPEMENT SÉCURISÉ",
       title: "Projets Dév. Sécurisé",
       projects: [
+        {
+          title: "AgentGuard",
+          description: "CLI open-source qui audite les permissions des agents IA et configurations MCP avant déploiement. Détecte les outils sur-permissionnés, identifiants en clair et bases de données de production exposées. Inclut une GitHub Action qui commente automatiquement les PRs quand le blast radius augmente.",
+          image: "/agentguard-banner.svg",
+          technologies: ["Python", "MCP", "LangChain", "GitHub Actions", "Analyse Statique", "CLI"],
+          githubUrl: "https://github.com/waelrezguii/agentguard",
+          reportUrl: undefined as string | undefined,
+        },
         {
           title: "Plateforme d'Audit Interne",
           description: "Conception et mise en œuvre d'une plateforme de gestion d'audit sécurité avec modélisation UML, authentification sécurisée (JWT) et gestion complète des rôles.",
