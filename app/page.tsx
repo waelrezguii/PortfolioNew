@@ -130,6 +130,14 @@ const translations = {
       backendRepo: "Backend Repo",
       projects: [
         {
+          title: "AI-Powered SOC Investigation Lab",
+          description: "End-to-end security operations lab: a Kali Linux attacker simulates SSH brute force, port scans, and web scans against an Ubuntu victim server monitored by Wazuh SIEM. A Python pipeline feeds detected alerts to Claude AI, which automatically generates severity ratings, MITRE ATT&CK mapping, response actions, and a full incident report — cutting report time from 30 minutes to seconds.",
+          image: "/ai-soc-analyst-banner.svg",
+          technologies: ["Wazuh SIEM", "Kali Linux", "MITRE ATT&CK", "Claude AI", "Python", "Incident Response"],
+          githubUrl: "https://github.com/waelrezguii/ai-soc-analyst",
+          reportUrl: undefined as string | undefined,
+        },
+        {
           title: "AgentGuard",
           description: "Open-source CLI that audits AI agent tool permissions and MCP server configs before deployment. Detects over-permissioned tools, plaintext credentials, and production DB exposure. Includes a GitHub Action that auto-comments on PRs when blast radius increases.",
           image: "/agentguard-banner.svg",
@@ -319,6 +327,14 @@ const translations = {
       frontendRepo: "Repo Frontend",
       backendRepo: "Repo Backend",
       projects: [
+        {
+          title: "Laboratoire SOC Alimenté par l'IA",
+          description: "Laboratoire complet d'opérations de sécurité : un attaquant Kali Linux simule des attaques par force brute SSH, scans de ports et scans web contre un serveur Ubuntu surveillé par Wazuh SIEM. Un pipeline Python transmet les alertes détectées à Claude AI, qui génère automatiquement un niveau de sévérité, une correspondance MITRE ATT&CK, des actions de réponse et un rapport d'incident complet — réduisant le temps de rapport de 30 minutes à quelques secondes.",
+          image: "/ai-soc-analyst-banner.svg",
+          technologies: ["Wazuh SIEM", "Kali Linux", "MITRE ATT&CK", "Claude AI", "Python", "Réponse aux Incidents"],
+          githubUrl: "https://github.com/waelrezguii/ai-soc-analyst",
+          reportUrl: undefined as string | undefined,
+        },
         {
           title: "AgentGuard",
           description: "CLI open-source qui audite les permissions des agents IA et configurations MCP avant déploiement. Détecte les outils sur-permissionnés, identifiants en clair et bases de données de production exposées. Inclut une GitHub Action qui commente automatiquement les PRs quand le blast radius augmente.",
