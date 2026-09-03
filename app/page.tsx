@@ -25,7 +25,7 @@ const translations = {
     },
     hero: {
       greeting: "$ whoami",
-      subtitle: "DevSecOps & IAM Engineer | Cybersecurity Professional",
+      subtitle: "DevSecOps, GRC & IAM Engineer | Cybersecurity Professional",
       downloadEN: "Download CV (English)",
       downloadFR: "Download CV (French)",
       contact: "Contact Info",
@@ -241,7 +241,7 @@ const translations = {
     },
     hero: {
       greeting: "$ whoami",
-      subtitle: "Ingénieur DevSecOps & IAM | Professionnel Cybersécurité",
+      subtitle: "Ingénieur DevSecOps, GRC & IAM | Professionnel Cybersécurité",
       downloadEN: "Télécharger CV (Anglais)",
       downloadFR: "Télécharger CV (Français)",
       contact: "Me Contacter",
