@@ -25,7 +25,7 @@ const translations = {
     },
     hero: {
       greeting: "$ whoami",
-      subtitle: "DevSecOps Engineer & Cybersecurity Professional",
+      subtitle: "DevSecOps & IAM Engineer | Cybersecurity Professional",
       downloadEN: "Download CV (English)",
       downloadFR: "Download CV (French)",
       contact: "Contact Info",
@@ -39,7 +39,7 @@ const translations = {
         "B.Sc. in Business Information Systems",
         "M.Sc. in Information Systems Security (In Progress)",
       ],
-      bio: "Cybersecurity master's student specializing in DevSecOps and GRC, with hands-on experience building end-to-end CI/CD security pipelines integrating SAST, DAST, SCA, and container scanning. Proficient in ISO 27001 auditing, risk assessment, and engineering enterprise-grade GRC platforms from the ground up. Bridges offensive security skills (penetration testing, Burp Suite, Nmap) with secure-by-design development (Angular, Spring Boot, JWT/OAuth2) to enforce security across the full software lifecycle — from commit to production.",
+      bio: "Cybersecurity master's student specializing in DevSecOps, GRC, and Identity & Access Management (IAM), with hands-on experience building end-to-end CI/CD security pipelines integrating SAST, DAST, SCA, and container scanning. Hands-on with OAuth 2.0, OpenID Connect, Keycloak SSO, and AWS IAM least-privilege policy design. Proficient in ISO 27001 auditing, risk assessment, and engineering enterprise-grade GRC platforms from the ground up. Bridges offensive security skills (penetration testing, Burp Suite, Nmap) with secure-by-design development (Angular, Spring Boot, JWT/OAuth2) to enforce security across the full software lifecycle — from commit to production.",
     },
     experience: {
       sectionLabel: "$ ls -la /experience",
@@ -81,6 +81,16 @@ const translations = {
             { name: "Penetration Testing", level: "Intermediate" },
             { name: "Burp Suite & Nmap", level: "Intermediate" },
             { name: "Linux", level: "Intermediate" },
+          ],
+        },
+        {
+          title: "Identity & Access Management",
+          color: "text-blue-400",
+          items: [
+            { name: "OAuth 2.0 / OpenID Connect", level: "Intermediate" },
+            { name: "Keycloak (SSO)", level: "Intermediate" },
+            { name: "AWS IAM (Least Privilege)", level: "Intermediate" },
+            { name: "RBAC / MFA", level: "Intermediate" },
           ],
         },
         {
@@ -129,6 +139,14 @@ const translations = {
       frontendRepo: "Frontend Repo",
       backendRepo: "Backend Repo",
       projects: [
+        {
+          title: "IAM Lab — Keycloak OIDC SSO + AWS Least-Privilege Policies",
+          description: "Hands-on identity and access management lab. Built two OpenID Connect clients in a self-hosted Keycloak instance, ran a full Authorization Code flow manually via curl, decoded a real ID token, and proved SSO by showing a matching session_state across two separate app logins with no re-authentication. Also wrote and live-tested 5 least-privilege AWS IAM policies against a real AWS account — including one verified end-to-end (allowed action succeeded, denied action correctly blocked with AccessDenied).",
+          image: "https://raw.githubusercontent.com/waelrezguii/iam-lab-keycloak-sso/main/screenshots/id-token-decode.png",
+          technologies: ["IAM", "OAuth 2.0", "OpenID Connect", "SSO", "Keycloak", "AWS IAM", "Least Privilege", "Docker"],
+          githubUrl: "https://github.com/waelrezguii/iam-lab-keycloak-sso",
+          reportUrl: undefined as string | undefined,
+        },
         {
           title: "AI-Powered SOC Investigation Lab",
           description: "End-to-end security operations lab: a Kali Linux attacker simulates SSH brute force, port scans, and web scans against an Ubuntu victim server monitored by Wazuh SIEM. A Python pipeline feeds detected alerts to Claude AI, which automatically generates severity ratings, MITRE ATT&CK mapping, response actions, and a full incident report — cutting report time from 30 minutes to seconds.",
@@ -223,7 +241,7 @@ const translations = {
     },
     hero: {
       greeting: "$ whoami",
-      subtitle: "Ingénieur DevSecOps & Professionnel Cybersécurité",
+      subtitle: "Ingénieur DevSecOps & IAM | Professionnel Cybersécurité",
       downloadEN: "Télécharger CV (Anglais)",
       downloadFR: "Télécharger CV (Français)",
       contact: "Me Contacter",
@@ -237,7 +255,7 @@ const translations = {
         "Licence en Systèmes d'Information de Gestion",
         "Master en Sécurité des Systèmes d'Information (En cours)",
       ],
-      bio: "Étudiant en master de cybersécurité spécialisé en DevSecOps et GRC, avec une expérience pratique dans la construction de pipelines CI/CD sécurisés intégrant SAST, DAST, SCA et scan de conteneurs. Maîtrise de l'audit ISO 27001, de l'évaluation des risques et du développement de plateformes GRC d'entreprise. Allie les compétences offensives (tests d'intrusion, Burp Suite, Nmap) au développement sécurisé (Angular, Spring Boot, JWT/OAuth2) pour garantir la sécurité sur l'ensemble du cycle de vie logiciel — du commit à la production.",
+      bio: "Étudiant en master de cybersécurité spécialisé en DevSecOps, GRC et Gestion des Identités et des Accès (IAM), avec une expérience pratique dans la construction de pipelines CI/CD sécurisés intégrant SAST, DAST, SCA et scan de conteneurs. Pratique concrète d'OAuth 2.0, OpenID Connect, du SSO Keycloak et de la conception de politiques AWS IAM à moindre privilège. Maîtrise de l'audit ISO 27001, de l'évaluation des risques et du développement de plateformes GRC d'entreprise. Allie les compétences offensives (tests d'intrusion, Burp Suite, Nmap) au développement sécurisé (Angular, Spring Boot, JWT/OAuth2) pour garantir la sécurité sur l'ensemble du cycle de vie logiciel — du commit à la production.",
     },
     experience: {
       sectionLabel: "$ ls -la /expérience",
@@ -279,6 +297,16 @@ const translations = {
             { name: "Tests d'Intrusion", level: "Intermédiaire" },
             { name: "Burp Suite & Nmap", level: "Intermédiaire" },
             { name: "Linux", level: "Intermédiaire" },
+          ],
+        },
+        {
+          title: "Gestion des Identités et des Accès",
+          color: "text-blue-400",
+          items: [
+            { name: "OAuth 2.0 / OpenID Connect", level: "Intermédiaire" },
+            { name: "Keycloak (SSO)", level: "Intermédiaire" },
+            { name: "AWS IAM (Moindre Privilège)", level: "Intermédiaire" },
+            { name: "RBAC / MFA", level: "Intermédiaire" },
           ],
         },
         {
@@ -327,6 +355,14 @@ const translations = {
       frontendRepo: "Repo Frontend",
       backendRepo: "Repo Backend",
       projects: [
+        {
+          title: "Lab IAM — SSO OIDC Keycloak + Politiques AWS Moindre Privilège",
+          description: "Laboratoire pratique de gestion des identités et des accès. Configuration de deux clients OpenID Connect dans une instance Keycloak auto-hébergée, exécution complète du flux Authorization Code manuellement via curl, décodage d'un vrai ID token, et démonstration du SSO via un session_state identique entre deux connexions applicatives distinctes sans ré-authentification. Rédaction et test en conditions réelles de 5 politiques IAM AWS à moindre privilège sur un compte AWS réel — dont une vérifiée de bout en bout (action autorisée réussie, action refusée bloquée avec AccessDenied).",
+          image: "https://raw.githubusercontent.com/waelrezguii/iam-lab-keycloak-sso/main/screenshots/id-token-decode.png",
+          technologies: ["IAM", "OAuth 2.0", "OpenID Connect", "SSO", "Keycloak", "AWS IAM", "Moindre Privilège", "Docker"],
+          githubUrl: "https://github.com/waelrezguii/iam-lab-keycloak-sso",
+          reportUrl: undefined as string | undefined,
+        },
         {
           title: "Laboratoire SOC Alimenté par l'IA",
           description: "Laboratoire complet d'opérations de sécurité : un attaquant Kali Linux simule des attaques par force brute SSH, scans de ports et scans web contre un serveur Ubuntu surveillé par Wazuh SIEM. Un pipeline Python transmet les alertes détectées à Claude AI, qui génère automatiquement un niveau de sévérité, une correspondance MITRE ATT&CK, des actions de réponse et un rapport d'incident complet — réduisant le temps de rapport de 30 minutes à quelques secondes.",
@@ -565,7 +601,7 @@ export default function Portfolio() {
             <div className="w-64 h-64 mx-auto rounded-full bg-gradient-to-r from-green-400 to-emerald-500 p-1">
               <div className="w-full h-full rounded-full bg-gray-950 flex items-center justify-center">
                 <img
-                  src="/profile-modified.png"
+                  src="/profile-photo.jpg"
                   alt="Wael Rezgui"
                   className="w-60 h-60 rounded-full object-cover"
                 />
