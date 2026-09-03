@@ -590,7 +590,7 @@ export default function Portfolio() {
       </motion.nav>
 
       {/* Hero Section */}
-      <section id="home" className="min-h-screen flex items-center justify-center relative">
+      <section id="home" className="min-h-screen flex items-center justify-center relative pt-24">
         <motion.div style={{ y }} className="text-center z-10 px-4">
           <motion.div
             initial={{ scale: 0 }}
@@ -603,7 +603,7 @@ export default function Portfolio() {
                 <img
                   src="/profile-photo.jpg"
                   alt="Wael Rezgui"
-                  className="w-60 h-60 rounded-full object-cover object-[50%_35%]"
+                  className="w-60 h-60 rounded-full object-cover object-[50%_45%]"
                 />
               </div>
             </div>
