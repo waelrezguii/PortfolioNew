@@ -603,7 +603,7 @@ export default function Portfolio() {
                 <img
                   src="/profile-photo.jpg"
                   alt="Wael Rezgui"
-                  className="w-60 h-60 rounded-full object-cover object-[50%_45%]"
+                  className="w-60 h-60 rounded-full object-cover object-[50%_30%]"
                 />
               </div>
             </div>
